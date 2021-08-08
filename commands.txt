@@ -1,0 +1,13 @@
+git init
+
+создаю файл .gitignor, прописываю игнорируемые файлы
+
+git add .
+git commit -m 'added files'
+git branch blog
+git checkout blog
+git add .
+git commit -m 'blog'
+git checkout master
+git remote add origin https://github.com/kvvDigitalAgency/front-end.git
+git push -u origin master
